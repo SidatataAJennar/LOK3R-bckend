@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+}
+
+/*Layout*/
+.NavBar{
+	width: 100%;
+	height: 80px;
+	background-color: #000;
+	display: block;
+}
+
+.navbar{
+    background-color: #000000;
+    width: 100%;
+    height: 80px;
+}
+
+.navbar #logoSpotify{
+    width: 150px;
+    height: 45px;
+    margin: 18px 200px;
+}
+
+.navbar ul{
+    float: right;
+    margin: 11px 150px;
+    padding: 20px;
+}
+
+.navbar li{
+    color: white;
+    list-style-type: none;
+    float: left;
+    margin: 0px 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.section{
+    padding: 25px 0;
+}
+.box{
+    background-color: #fff;
+    border:1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
